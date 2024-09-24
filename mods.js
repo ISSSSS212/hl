@@ -3,6 +3,7 @@ zipMods = [
 	['opposing_force_en.zip', 'Opposing Force EN (BUGGED (old ver) + MENU LAGS) (221M)', 221191140, 22, 10485760],
 	['halva_rus.zip', 'Half-Life RUS (304M)', 303881453, 29, 10485760, 10485760],
 	['opposing_force_rus.zip', 'Opposing Force RUS (BUGGED (old ver)) (224M)', 223479923, 22, 10485760]
+	['csv15full.zip', 'Counter Strike US', 
 ];
 
 pkgMods = [
@@ -40,4 +41,9 @@ selectZip.addEventListener('change', function(){
 		//alert('Bugs: Doesn\'t spawn NPCs (because old xash version).');
 		iArgs.value="-dev 1 -game valve";
 	}
+	else if(selectZip.value=="csv15full_cstrike.zip"
+	{
+		//alert('Bugs')
+		iArgs.value="-dev 1 -game valve";
+	}	
 });
